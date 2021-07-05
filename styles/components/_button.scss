@@ -1,0 +1,29 @@
+.button {
+  background-color: $orange;
+  width: 100px;
+  height: 54px;
+  border-radius: 4px;
+  color: white;
+
+  &:hover {
+      background-color: red;
+  }
+
+  &-secondary {
+    background-color: $blue;
+    border-radius: 4px;
+  }
+
+  &-small {
+    width: 70px;
+    height: 34px;
+  }
+
+  &-medium {
+  }
+
+  &-large {
+    width: 400px;
+    height: 54px;
+  }
+}
